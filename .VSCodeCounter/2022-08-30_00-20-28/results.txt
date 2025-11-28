@@ -1,0 +1,193 @@
+Date : 2022-08-30 00:20:28
+Directory : d:\Home\blog\UC-blog\blog-app
+Total : 139 files,  32001 codes, 236 comments, 659 blanks, all 32896 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          3 |     26,054 |          0 |          3 |     26,057 |
+| Vue        |         26 |      3,783 |         76 |        307 |      4,166 |
+| JavaScript |         25 |      1,068 |        134 |        152 |      1,354 |
+| CSS        |         78 |        541 |         19 |        108 |        668 |
+| HTML       |          5 |        488 |          3 |         68 |        559 |
+| XML        |          2 |         67 |          4 |         21 |         92 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                     | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                        |        139 |     32,001 |        236 |        659 |     32,896 |
+| build                                                                    |          7 |        458 |         40 |         56 |        554 |
+| config                                                                   |          3 |         49 |         33 |         18 |        100 |
+| src                                                                      |        124 |      5,398 |        159 |        577 |      6,134 |
+| src\api                                                                  |          6 |        227 |         26 |         26 |        279 |
+| src\assets                                                               |         85 |      1,062 |         24 |        194 |      1,280 |
+| src\assets\css                                                           |          1 |         26 |          0 |          5 |         31 |
+| src\assets\icon                                                          |          9 |        973 |         24 |        177 |      1,174 |
+| src\assets\theme                                                         |         75 |         63 |          0 |         12 |         75 |
+| src\components                                                           |         10 |        966 |         32 |        103 |      1,101 |
+| src\components\article                                                   |          1 |         87 |          1 |         17 |        105 |
+| src\components\card                                                      |          4 |        223 |          3 |         32 |        258 |
+| src\components\comment                                                   |          1 |        296 |          4 |         18 |        318 |
+| src\components\gotop                                                     |          1 |         75 |          3 |          4 |         82 |
+| src\components\markdown                                                  |          1 |         52 |          1 |         11 |         64 |
+| src\components\scrollpage                                                |          1 |         68 |          5 |         10 |         83 |
+| src\request                                                              |          2 |         63 |          9 |         16 |         88 |
+| src\router                                                               |          1 |        100 |         12 |         15 |        127 |
+| src\store                                                                |          2 |        122 |          6 |          7 |        135 |
+| src\utils                                                                |          1 |         15 |          0 |          4 |         19 |
+| src\views                                                                |         14 |      2,762 |         44 |        192 |      2,998 |
+| src\views\blog                                                           |          6 |      1,387 |         22 |        112 |      1,521 |
+| src\views\common                                                         |          2 |        254 |          3 |         12 |        269 |
+| src\views\personal                                                       |          1 |        443 |          9 |         11 |        463 |
+| static                                                                   |          1 |         38 |          1 |          1 |         40 |
+| static\tag                                                               |          1 |         38 |          1 |          1 |         40 |
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                 | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Home\blog\UC-blog\blog-app\.postcssrc.js                              | JavaScript |          7 |          2 |          2 |         11 |
+| d:\Home\blog\UC-blog\blog-app\build\build.js                             | JavaScript |         35 |          0 |          7 |         42 |
+| d:\Home\blog\UC-blog\blog-app\build\check-versions.js                    | JavaScript |         45 |          0 |         10 |         55 |
+| d:\Home\blog\UC-blog\blog-app\build\utils.js                             | JavaScript |         80 |          5 |         17 |        102 |
+| d:\Home\blog\UC-blog\blog-app\build\vue-loader.conf.js                   | JavaScript |         21 |          0 |          2 |         23 |
+| d:\Home\blog\UC-blog\blog-app\build\webpack.base.conf.js                 | JavaScript |         81 |          4 |          5 |         90 |
+| d:\Home\blog\UC-blog\blog-app\build\webpack.dev.conf.js                  | JavaScript |         82 |          7 |          7 |         96 |
+| d:\Home\blog\UC-blog\blog-app\build\webpack.prod.conf.js                 | JavaScript |        114 |         24 |          8 |        146 |
+| d:\Home\blog\UC-blog\blog-app\config\dev.env.js                          | JavaScript |          7 |          0 |          2 |          9 |
+| d:\Home\blog\UC-blog\blog-app\config\index.js                            | JavaScript |         37 |         33 |         15 |         85 |
+| d:\Home\blog\UC-blog\blog-app\config\prod.env.js                         | JavaScript |          5 |          0 |          1 |          6 |
+| d:\Home\blog\UC-blog\blog-app\index.html                                 | HTML       |         20 |          1 |          3 |         24 |
+| d:\Home\blog\UC-blog\blog-app\package-lock.json                          | JSON       |     25,959 |          0 |          1 |     25,960 |
+| d:\Home\blog\UC-blog\blog-app\package.json                               | JSON       |         72 |          0 |          1 |         73 |
+| d:\Home\blog\UC-blog\blog-app\src\App.vue                                | Vue        |         15 |          0 |          3 |         18 |
+| d:\Home\blog\UC-blog\blog-app\src\Home.vue                               | Vue        |         40 |          0 |          9 |         49 |
+| d:\Home\blog\UC-blog\blog-app\src\api\article.js                         | JavaScript |         79 |          9 |         10 |         98 |
+| d:\Home\blog\UC-blog\blog-app\src\api\category.js                        | JavaScript |         19 |          3 |          3 |         25 |
+| d:\Home\blog\UC-blog\blog-app\src\api\comment.js                         | JavaScript |         25 |          3 |          1 |         29 |
+| d:\Home\blog\UC-blog\blog-app\src\api\login.js                           | JavaScript |         70 |          7 |          6 |         83 |
+| d:\Home\blog\UC-blog\blog-app\src\api\tag.js                             | JavaScript |         25 |          4 |          4 |         33 |
+| d:\Home\blog\UC-blog\blog-app\src\api\upload.js                          | JavaScript |          9 |          0 |          2 |         11 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\css\global.css                  | CSS        |         26 |          0 |          5 |         31 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\icon\demo.css                   | CSS        |        435 |         19 |         86 |        540 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\icon\demo_fontclass.html        | HTML       |         64 |          0 |         13 |         77 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\icon\demo_index.html            | HTML       |        208 |          2 |         21 |        231 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\icon\demo_symbol.html           | HTML       |         98 |          0 |         14 |        112 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\icon\demo_unicode.html          | HTML       |         98 |          0 |         17 |        115 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\icon\iconfont.css               | CSS        |         17 |          0 |          5 |         22 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\icon\iconfont.js                | JavaScript |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\icon\iconfont.json              | JSON       |         23 |          0 |          1 |         24 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\icon\iconfont.svg               | XML        |         29 |          3 |         20 |         52 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\alert.css                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\aside.css                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\autocomplete.css          | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\badge.css                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\base.css                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\breadcrumb-item.css       | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\breadcrumb.css            | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\button-group.css          | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\button.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\card.css                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\carousel-item.css         | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\carousel.css              | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\cascader.css              | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\checkbox-button.css       | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\checkbox-group.css        | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\checkbox.css              | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\col.css                   | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\collapse-item.css         | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\collapse.css              | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\color-picker.css          | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\container.css             | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\date-picker.css           | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\dialog.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\display.css               | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\dropdown-item.css         | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\dropdown-menu.css         | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\dropdown.css              | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\footer.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\form-item.css             | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\form.css                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\header.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\icon.css                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\index.css                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\input-number.css          | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\input.css                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\loading.css               | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\main.css                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\menu-item-group.css       | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\menu-item.css             | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\menu.css                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\message-box.css           | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\message.css               | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\notification.css          | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\option-group.css          | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\option.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\pagination.css            | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\popover.css               | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\popper.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\progress.css              | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\radio-button.css          | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\radio-group.css           | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\radio.css                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\rate.css                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\reset.css                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\row.css                   | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\scrollbar.css             | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\select-dropdown.css       | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\select.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\slider.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\spinner.css               | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\step.css                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\steps.css                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\submenu.css               | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\switch.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\tab-pane.css              | CSS        |          0 |          0 |          1 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\table-column.css          | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\table.css                 | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\tabs.css                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\tag.css                   | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\time-picker.css           | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\time-select.css           | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\tooltip.css               | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\transfer.css              | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\tree.css                  | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\assets\theme\upload.css                | CSS        |          1 |          0 |          0 |          1 |
+| d:\Home\blog\UC-blog\blog-app\src\components\BaseHeader.vue              | Vue        |        165 |         15 |         11 |        191 |
+| d:\Home\blog\UC-blog\blog-app\src\components\article\ArticleItem.vue     | Vue        |         87 |          1 |         17 |        105 |
+| d:\Home\blog\UC-blog\blog-app\src\components\card\CardArchive.vue        | Vue        |         49 |          0 |         11 |         60 |
+| d:\Home\blog\UC-blog\blog-app\src\components\card\CardArticle.vue        | Vue        |         59 |          0 |          8 |         67 |
+| d:\Home\blog\UC-blog\blog-app\src\components\card\CardMe.vue             | Vue        |         52 |          3 |          5 |         60 |
+| d:\Home\blog\UC-blog\blog-app\src\components\card\CardTag.vue            | Vue        |         63 |          0 |          8 |         71 |
+| d:\Home\blog\UC-blog\blog-app\src\components\comment\CommentItem.vue     | Vue        |        296 |          4 |         18 |        318 |
+| d:\Home\blog\UC-blog\blog-app\src\components\gotop\GoTop.vue             | Vue        |         75 |          3 |          4 |         82 |
+| d:\Home\blog\UC-blog\blog-app\src\components\markdown\MarkdownEditor.vue | Vue        |         52 |          1 |         11 |         64 |
+| d:\Home\blog\UC-blog\blog-app\src\components\scrollpage\index.vue        | Vue        |         68 |          5 |         10 |         83 |
+| d:\Home\blog\UC-blog\blog-app\src\main.js                                | JavaScript |         26 |          6 |          8 |         40 |
+| d:\Home\blog\UC-blog\blog-app\src\request\index.js                       | JavaScript |         54 |          9 |         14 |         77 |
+| d:\Home\blog\UC-blog\blog-app\src\request\token.js                       | JavaScript |          9 |          0 |          2 |         11 |
+| d:\Home\blog\UC-blog\blog-app\src\router\index.js                        | JavaScript |        100 |         12 |         15 |        127 |
+| d:\Home\blog\UC-blog\blog-app\src\store\index.js                         | JavaScript |        118 |          6 |          7 |        131 |
+| d:\Home\blog\UC-blog\blog-app\src\store\mutation-types.js                | JavaScript |          4 |          0 |          0 |          4 |
+| d:\Home\blog\UC-blog\blog-app\src\utils\time.js                          | JavaScript |         15 |          0 |          4 |         19 |
+| d:\Home\blog\UC-blog\blog-app\src\views\All.vue                          | Vue        |        159 |          5 |         14 |        178 |
+| d:\Home\blog\UC-blog\blog-app\src\views\Index.vue                        | Vue        |        156 |          4 |          9 |        169 |
+| d:\Home\blog\UC-blog\blog-app\src\views\Login.vue                        | Vue        |        159 |          0 |         13 |        172 |
+| d:\Home\blog\UC-blog\blog-app\src\views\MessageBoard.vue                 | Vue        |         40 |          0 |          9 |         49 |
+| d:\Home\blog\UC-blog\blog-app\src\views\Register.vue                     | Vue        |        164 |          1 |         12 |        177 |
+| d:\Home\blog\UC-blog\blog-app\src\views\blog\BlogAllCategoryTag.vue      | Vue        |        180 |          0 |         14 |        194 |
+| d:\Home\blog\UC-blog\blog-app\src\views\blog\BlogArchive.vue             | Vue        |        139 |          0 |         11 |        150 |
+| d:\Home\blog\UC-blog\blog-app\src\views\blog\BlogCategoryTag.vue         | Vue        |        112 |          0 |         15 |        127 |
+| d:\Home\blog\UC-blog\blog-app\src\views\blog\BlogSearch.vue              | Vue        |         49 |          0 |          4 |         53 |
+| d:\Home\blog\UC-blog\blog-app\src\views\blog\BlogView.vue                | Vue        |        446 |         20 |         37 |        503 |
+| d:\Home\blog\UC-blog\blog-app\src\views\blog\BlogWrite.vue               | Vue        |        461 |          2 |         31 |        494 |
+| d:\Home\blog\UC-blog\blog-app\src\views\common\ArticleScrollPage.vue     | Vue        |        129 |          1 |          6 |        136 |
+| d:\Home\blog\UC-blog\blog-app\src\views\common\menu.vue                  | Vue        |        125 |          2 |          6 |        133 |
+| d:\Home\blog\UC-blog\blog-app\src\views\personal\Personal.vue            | Vue        |        443 |          9 |         11 |        463 |
+| d:\Home\blog\UC-blog\blog-app\static\tag\hibernate.svg                   | XML        |         38 |          1 |          1 |         40 |
+| Total                                                                    |            |     32,001 |        236 |        659 |     32,896 |
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
