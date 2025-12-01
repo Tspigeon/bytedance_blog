@@ -16,7 +16,7 @@ date:2025-11-28
 
 下图是本项目的功能模块图：
 
-[![pZEctJK.png](https://s41.ax1x.com/2025/11/28/pZEctJK.png)](https://imgchr.com/i/pZEctJK)
+[![pZVXvL9.md.png](https://s41.ax1x.com/2025/12/01/pZVXvL9.md.png)](https://imgchr.com/i/pZVXvL9)
 
 ### 功能说明
 
@@ -45,13 +45,13 @@ date:2025-11-28
 **用户信息表**
 
 主要展示了用户的信息，各个字段的含义可见注释
-[![pZEcxm9.png](https://s41.ax1x.com/2025/11/28/pZEcxm9.png)](https://imgchr.com/i/pZEcxm9)
+[![pZVjCi6.md.png](https://s41.ax1x.com/2025/12/01/pZVjCi6.md.png)](https://imgchr.com/i/pZVjCi6)
 
 **作品信息表**
 
 包含了各种各样的作品信息，特别针对markdown文档进行了调整，保存了一些markdown文档独有的信息
 
-[![pZEcjOJ.png](https://s41.ax1x.com/2025/11/28/pZEcjOJ.png)](https://imgchr.com/i/pZEcjOJ)
+[![pZVjPJK.md.png](https://s41.ax1x.com/2025/12/01/pZVjPJK.md.png)](https://imgchr.com/i/pZVjPJK)
 
 
 
@@ -59,7 +59,7 @@ date:2025-11-28
 
 每一篇文档支持用户之间的评论，评论信息会存在这张表中
 
-[![pZEczwR.png](https://s41.ax1x.com/2025/11/28/pZEczwR.png)](https://imgchr.com/i/pZEczwR)
+[![pZVjAQe.md.png](https://s41.ax1x.com/2025/12/01/pZVjAQe.md.png)](https://imgchr.com/i/pZVjAQe)
 
 
 
@@ -67,15 +67,13 @@ date:2025-11-28
 
 类别表
 
-[![pZEcXy4.png](https://s41.ax1x.com/2025/11/28/pZEcXy4.png)](https://imgchr.com/i/pZEcXy4)
-
-
+[![pZVjEsH.md.png](https://s41.ax1x.com/2025/12/01/pZVjEsH.md.png)](https://imgchr.com/i/pZVjEsH)
 
 **标签表**
 
 标签表，用于文章的筛选，在本项目中可以根据文章标签进行筛选
 
-[![pZEcOlF.png](https://s41.ax1x.com/2025/11/28/pZEcOlF.png)](https://imgchr.com/i/pZEcOlF)
+[![pZVjVLd.md.png](https://s41.ax1x.com/2025/12/01/pZVjVLd.md.png)](https://imgchr.com/i/pZVjVLd)
 
 
 
@@ -103,11 +101,19 @@ date:2025-11-28
 
 登录与注册
 
-[![pZEgJmj.png](https://s41.ax1x.com/2025/11/28/pZEgJmj.png)](https://imgchr.com/i/pZEgJmj)
+登录界面：
 
-[![pZEgt7n.png](https://s41.ax1x.com/2025/11/28/pZEgt7n.png)](https://imgchr.com/i/pZEgt7n)
+[![pZVjdYV.md.png](https://s41.ax1x.com/2025/12/01/pZVjdYV.md.png)](https://imgchr.com/i/pZVjdYV)
 
-笔记界面
+注册界面：
+
+[![pZVjDlF.md.png](https://s41.ax1x.com/2025/12/01/pZVjDlF.md.png)](https://imgchr.com/i/pZVjDlF)
+
+
+
+主页界面
+
+
 
 
 
