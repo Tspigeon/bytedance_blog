@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ty.admin.dao.PermissionMapper">
+
+    <select id="findPermissionsByAdminId" parameterType="long" resultType="com.ty.admin.model.pojo.Permission">
+        select * from uc_permission where id in (select permission_id from uc_admin_permission where admin_id=#{adminId})
+    </select>
+
+</mapper>

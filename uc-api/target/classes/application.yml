@@ -1,0 +1,55 @@
+server:
+  port: 8888
+
+spring:
+  main:
+    #解决因循环引用导致启动报错的问题
+    allow-circular-references: true
+
+  application:
+    name: UC-blog
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/soultree?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+
+  redis:
+    host: localhost
+    port: 6379
+
+  servlet:
+    multipart:
+      #单个文件的最大值
+      max-file-size: 2MB
+      #上传文件的最大值
+      max-request-size: 20MB
+
+  cache:
+    type: redis
+    redis:
+      #存活时间 单位：毫秒
+      time-to-live: 600000
+      key-prefix: UC_CACHE_
+      use-key-prefix: true
+      #是否缓存控制，防止缓存穿透
+      cache-null-values: true
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*.xml
+  configuration:
+ #打开日志   log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    log_impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
+  global-config:
+    db-config:
+      table-prefix: uc_
+
+qiniu:
+  accessKey: aU15XHgHCq1swUHsitqNpzxUP4DDjL0DQAqqF0Vd
+  accessSecretKey: uPSMXjcDbp7tXjZiA5l5i53VKK91WxD0WWVJUIH8

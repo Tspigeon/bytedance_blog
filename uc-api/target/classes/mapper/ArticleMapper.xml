@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ty.dao.ArticleMapper">
+
+    <resultMap id="articleMap" type="com.ty.domain.pojo.Article">
+        <id column="id" property="id" />
+        <result column="author_id" property="authorId"/>
+        <result column="comment_counts" property="commentCounts"/>
+        <result column="create_date" property="createDate"/>
+        <result column="summary" property="summary"/>
+        <result column="title" property="title"/>
+        <result column="view_counts" property="viewCounts"/>
+        <result column="weight" property="weight"/>
+        <result column="body_id" property="bodyId"/>
+        <result column="category_id" property="categoryId"/>
+    </resultMap>
+
+    <select id="listArchives" resultType="com.ty.dao.dos.Archives">
+        select FROM_UNIXTIME(create_date/1000, '%Y') as year, FROM_UNIXTIME(create_date/1000, '%m') as month, count(*) as count from uc_article
+        group by year, month
+    </select>
+
+<!--mybatis plus 对于连接and的处理没有像mybatis的效果 所以加上1 = 1便于连接-->
+    <select id="listAticle"  resultMap="articleMap" resultType="com.ty.domain.pojo.Article">
+        select * from uc_article
+        <where>
+            1 = 1
+            <if test="categoryId != null">
+                and category_id=#{categoryId}
+            </if>
+            <if test="tagId != null">
+                and id in (select article_id from uc_article_tag where tag_id=#{tagId})
+            </if>
+            <if test="year != null and year.length>0 and month != null and month.length>0">
+                and (From_UNIXTIME(create_date/1000,'%Y') = #{year} and From_UNIXTIME(create_date/1000,'%m') = #{month})
+            </if>
+        </where>
+        order by weight desc, create_date desc
+    </select>
+
+    <update id="bathUpdateArticleViewCount" parameterType="list">
+        update uc_article
+        set view_counts =
+        <foreach collection="list" item="item" separator="" open="CASE id" close="end">
+            when #{item.articleId} then #{item.viewCount}
+        </foreach>
+        where id in
+        <foreach collection="list"  open="(" item="item" close=")" separator=",">
+            #{item.articleId,jdbcType=BIGINT}
+        </foreach>
+    </update>
+
+    <select id="listMyAticle"  resultMap="articleMap" resultType="com.ty.domain.pojo.Article">
+        select * from uc_article
+        <where>
+            author_id = #{id}
+            <if test="categoryId != null">
+                and category_id=#{categoryId}
+            </if>
+            <if test="tagId != null">
+                and id in (select article_id from uc_article_tag where tag_id=#{tagId})
+            </if>
+            <if test="year != null and year.length>0 and month != null and month.length>0">
+                and (From_UNIXTIME(create_date/1000,'%Y') = #{year} and From_UNIXTIME(create_date/1000,'%m') = #{month})
+            </if>
+        </where>
+        order by weight desc, create_date desc
+    </select>
+
+</mapper>
