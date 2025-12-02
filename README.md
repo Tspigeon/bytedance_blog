@@ -79,7 +79,7 @@ date:2025-11-28
 
 ## 技术方案
 
-本项目采用javascript语言进行开发，它最大的优点就是与平台无关，在Windows 9x、Windows NT、Solaris、Linux、MacOS以及其它平台上，都可以使用相同的代码。“一次编写，到处运行”的特点，使其在互联网上广泛采用。本项目结合Express框架，Express是一个快速整合第三方框架，简化xml，内置Http服务器进行后端开发，前端使用vue+element-ui的模式进行开发，使得视图，数据，结构分离：使数据的更改更为简单，不需要进行逻辑代码的修改，只需要操作数据就能完成相关操作，前后端可以进行分离开发，只需统一接口即可完成通信。
+本项目采用javascript语言进行开发，它最大的优点就是与平台无关，在Windows 9x、Windows NT、Solaris、Linux、MacOS以及其它平台上，都可以使用相同的代码。“一次编写，到处运行”的特点，使其在互联网上广泛采用。本项目结合Spring-boot框架，Spring-boot是一个快速整合第三方框架，简化xml，内置Http服务器进行后端开发，前端使用vue+element-ui的模式进行开发，使得视图，数据，结构分离：使数据的更改更为简单，不需要进行逻辑代码的修改，只需要操作数据就能完成相关操作，前后端可以进行分离开发，只需统一接口即可完成通信。
 
 数据库采用MySQL，体积小、速度快、总体拥有成本低，开源，支持多种操作系统； 是开源数据库，提供的接口支持多种语言连接操作，MySQL的核心程序采用完全的多线程编程
 
@@ -113,23 +113,31 @@ date:2025-11-28
 
 主页界面
 
-
+![desktop.png](https://youke1.picui.cn/s1/2025/12/02/692e6d7b5919e.png)
 
 
 
 评论界面
 
+![com.png](https://youke1.picui.cn/s1/2025/12/02/692e6d7b725ba.png)
+
 
 
 分类界面
+
+![tagvue.png](https://youke1.picui.cn/s1/2025/12/02/692e6d7b52307.png)
 
 
 
 文章编辑界面
 
+![tagvue.png](https://youke1.picui.cn/s1/2025/12/02/692e6d7b52307.png)
+
 
 
 用户界面
+
+![uservue.png](https://youke1.picui.cn/s1/2025/12/02/692e6d7b6935e.png)
 
 
 
